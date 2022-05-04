@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane prefHeight="433.0" prefWidth="589.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gpacalculator.MainController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="210.00000610351563" minHeight="10.0" prefHeight="116.4" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="316.4" minHeight="10.0" prefHeight="316.4" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <TextField fx:id="mainTitle" alignment="CENTER" editable="false" prefHeight="120.0" prefWidth="603.0" style="-fx-background-color: #000000;" text="GPA есептеуіш">
+         <font>
+            <Font name="Cambria Italic" size="35.0" />
+         </font>
+      </TextField>
+      <FlowPane fx:id="flowPane" alignment="CENTER" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+         <children>
+            <VBox fx:id="vBox2" alignment="CENTER" prefHeight="279.0" prefWidth="158.0">
+               <children>
+                  <TextField fx:id="creditTextField" alignment="CENTER" editable="false" prefHeight="38.0" prefWidth="131.0" style="-fx-background-color: #ffd700;" text="Кредит">
+                     <font>
+                        <Font name="Monospaced Bold Italic" size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <ChoiceBox fx:id="choiceBox11" cache="true" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #ffd700;">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <ChoiceBox fx:id="choiceBox21" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #ffd700;">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <ChoiceBox fx:id="choiceBox31" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #ffd700;">
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <ChoiceBox fx:id="choiceBox41" minHeight="-Infinity" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #ffd700;">
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <ChoiceBox fx:id="choiceBox51" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #ffd700;">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <ChoiceBox fx:id="choiceBox61" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #ffd700;">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <ChoiceBox fx:id="choiceBox71" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #ffd700;">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+               </children>
+            </VBox>
+            <VBox fx:id="vBox1" alignment="CENTER" prefHeight="214.0" prefWidth="158.0" style="-fx-alignment: center;">
+               <children>
+                  <TextField fx:id="scoreTextField" alignment="CENTER" editable="false" prefHeight="38.0" prefWidth="102.0" style="-fx-background-color: #ffd700;" text="Баға">
+                     <font>
+                        <Font name="Monospaced Bold Italic" size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <ChoiceBox fx:id="choiceBox1" cache="true" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #ffd700;">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <ChoiceBox fx:id="choiceBox2" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #ffd700;">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <ChoiceBox fx:id="choiceBox3" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #ffd700;">
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <ChoiceBox fx:id="choiceBox4" minHeight="-Infinity" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #ffd700;">
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <ChoiceBox fx:id="choiceBox5" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #ffd700;">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <ChoiceBox fx:id="choiceBox6" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #ffd700;">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <ChoiceBox fx:id="choiceBox7" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: #ffd700;">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+               </children>
+            </VBox>
+            <VBox fx:id="cleanConsiderBOX" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="86.0" prefWidth="113.0">
+               <children>
+                  <Button id="considerButton" mnemonicParsing="false" onAction="#onClearButtonCompleted" prefHeight="36.0" prefWidth="102.0" style="-fx-background-color: #ffd700;" text="Тазарту">
+                     <font>
+                        <Font name="Georgia" size="19.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button id="considerButton" mnemonicParsing="false" onAction="#onConsiderButtonCompleted" style="-fx-background-color: #ffd700;" text="Есептеу!">
+                     <font>
+                        <Font name="Georgia" size="19.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+               <FlowPane.margin>
+                  <Insets />
+               </FlowPane.margin>
+            </VBox>
+         </children>
+      </FlowPane>
+   </children>
+</GridPane>
